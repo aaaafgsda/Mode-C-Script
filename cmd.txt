@@ -1,0 +1,7 @@
+execute -f cmd.exe -c -i -H
+set /p =Flag~<nul&type c:\flagvalue.txt&set /p =~<nul&set /p =~<nul
+set /p =Flag~<nul&type c:\flagvalue.txt&set /p =~<nul&set /p =~<nul
+set /p =Flag~<nul&type c:\flagvalue.txt&set /p =~<nul&set /p =~<nul
+set /p =Flag~<nul&type c:\flagvalue.txt&set /p =~<nul&set /p =~<nul
+set /p =Flag~<nul&type c:\flagvalue.txt&set /p =~<nul&set /p =~<nul
+set /p =Flag~<nul&type c:\flagvalue.txt&set /p =~<nul&set /p =~<nul

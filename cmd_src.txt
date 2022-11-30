@@ -1,0 +1,16 @@
+#如果目标为linux发行版系统,cmd.txt内则写入以下命令集
+shell
+shell
+echo Flag~$(cat /root/flagvalue.txt)~$(echo "~")
+echo Flag~$(cat /root/flagvalue.txt)~$(echo "~")
+echo Flag~$(cat /root/flagvalue.txt)~$(echo "~")
+echo Flag~$(cat /root/flagvalue.txt)~$(echo "~")
+
+#如目标系统为Windows系统,cmd.txt内则写入以下命令集
+execute -f cmd.exe -c -i -H
+set /p =Flag~<nul&type c:\flagvalue.txt&set /p =~<nul&set /p =~<nul
+set /p =Flag~<nul&type c:\flagvalue.txt&set /p =~<nul&set /p =~<nul
+set /p =Flag~<nul&type c:\flagvalue.txt&set /p =~<nul&set /p =~<nul
+set /p =Flag~<nul&type c:\flagvalue.txt&set /p =~<nul&set /p =~<nul
+set /p =Flag~<nul&type c:\flagvalue.txt&set /p =~<nul&set /p =~<nul
+set /p =Flag~<nul&type c:\flagvalue.txt&set /p =~<nul&set /p =~<nul
